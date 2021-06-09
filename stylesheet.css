@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background-color: lavender;
+    background-color: #e6e6fa;
     position: relative;
     width: 720px;
     height: 60px;
@@ -20,7 +20,7 @@ body {
 }
 
 .personal-info {
-    background-color: lavender;
+    background-color: #e6e6fa;
     width: 720px;
     height: 310px;
     border-radius: 15px;
