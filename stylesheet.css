@@ -11,27 +11,12 @@ body {
     text-align: center;
 }
 
-.header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, 50%);
-    transform: translate(-50%, -50%);
-}
-
 .personal-info {
     background-color: #e6e6fa;
     width: 720px;
     height: 310px;
     border-radius: 15px;
     margin-top: 20px;
-}
-
-.personal-info img {
-    width: 180px;
-    height: 270px;
-    margin: 20px 20px;
-    border-radius: 15px;
 }
 
 .personal-info-text {
@@ -41,18 +26,51 @@ body {
     float: right;
     margin: 20px 20px 20px 0px;
     border-radius: 15px;
+    text-align: left;
+}
+
+.other-info {
+    background-color: #e6e6fa;
+    width: 720px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.personal-info img {
+    width: 180px;
+    height: 270px;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+.personal-info-text table {
+    margin: 0px 15px;
+}
+
+.personal-info-text td {
+    vertical-align: top ;
+}
+
+ul, li {
+    padding-bottom: 10px;
+    margin: 0px 0px;
+}
+
+h2 {
+    margin: 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
-.personal-info-text p {
-    font-size: 20px;
-    margin-bottom: 0px;
-}
 
-.personal-info-text h2 {
-    margin-top: 25px;
-}
-
-h1, h2 {
-    margin: 0px;
-}
