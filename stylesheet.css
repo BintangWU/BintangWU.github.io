@@ -12,21 +12,38 @@ body {
 }
 
 .personal-info {
-    background-color: #e6e6fa;
+    background-color: hsl(240, 67%, 94%);
     width: 720px;
-    height: 310px;
+    height: auto;
     border-radius: 15px;
     margin-top: 20px;
 }
 
 .personal-info-text {
-    background-color:rgba(102, 205, 170, 0.5);
+    background-color:rgba(140, 202, 221, 0.5);
     width: 480px;
     height: 270px;
     float: right;
     margin: 20px 20px 20px 0px;
     border-radius: 15px;
     text-align: left;
+}
+
+.personal-info-contact {
+    background-color:rgba(140, 202, 221, 0.5);
+    border-radius: 15px;
+    width: 680px;
+    margin: 0px 20px;
+}
+
+.container-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact {
+    padding-bottom: 10px;
 }
 
 .other-info {
